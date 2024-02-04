@@ -1,0 +1,18 @@
+.wrapper{
+    width: 70vw;
+    padding-top: 90px;
+    display: flex;  
+    margin: 0 auto;
+}
+
+.canvas{
+    margin: 40px
+}
+
+
+@media (max-width: 730px){
+    .wrapper{
+        width: 90%;
+        flex-direction: column;
+    }
+  }
